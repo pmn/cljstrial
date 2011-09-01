@@ -10,4 +10,5 @@
                (include-css "/css/reset.css")]
               [:body
                [:div#wrapper
-                content]]))
+                content]
+               (include-js "/cljs/bootstrap.js")]))
